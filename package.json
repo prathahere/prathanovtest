@@ -1,0 +1,26 @@
+{
+  "name": "vscode-sample-extension-4",
+  "displayName": "VSCode Sample Extension 4",
+  "description": "A VS Code extension that converts selected text to uppercase.",
+  "version": "1.0.0",
+  "publisher": "yourusername",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:sampleExtension4.toUppercase"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "sampleExtension4.toUppercase",
+        "title": "Convert Selected Text to Uppercase"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["vscode", "extension", "uppercase"]
+}

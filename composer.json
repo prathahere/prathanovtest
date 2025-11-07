@@ -1,0 +1,35 @@
+{
+  "name": "vermapackxxxx/sample-craft-plugin",
+  "description": "A simple Craft CMS plugin that adds a sample feature.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "vermapackxxxx\\samplecraftplugin\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "sample-craft-plugin",
+    "name": "Sample Craft Plugin",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://github.com/vermapackxxxx/sample-craft-plugin/CHANGELOG.md",
+    "class": "vermapackxxxx\\samplecraftplugin\\Plugin"
+  },
+  "support": {
+    "issues": "https://github.com/vermapackxxxx/sample-craft-plugin/issues",
+    "source": "https://github.com/vermapackxxxx/sample-craft-plugin"
+  }
+}
